@@ -300,19 +300,4 @@ class RestClient(object):
 
 if __name__ == '__main__':
 
-    #c=RestClient(key,secret);
-    #print(c.getorderbook('BTC-PERPETUAL',10));     #passed
-    #print(c.getinstruments('BTC','future'));       #passed
-    #print(c.getcurrencies());                      #passed
-    #print(c.gettradesbycurrency('BTC',10))         #passed
-    #print(c.getindex('BTC'))                       #passed
-    #print(c.buy('BTC-PERPETUAL',10,6000,'limit')); #passed      
-    #print(c.sell('BTC-PERPETUAL',10,9000,'limit'));#passed
-    #print(c.edit('16658592757',20,6600));          #passed
-    #print(c.cancel('16658592757'));                #passed
-    #print(c.cancelall())                           #passed
-    #print(c.getopenorders('BTC'));                 #passed
-    #print(c.getpositions('BTC'));                  #passed
-
-
     pass;
