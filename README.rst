@@ -3,14 +3,15 @@ API Client from Deribit API version 2
 
 API client for 'Deribit API version 2. 
 
-Full documentation is available at https://github.com/deribit/deribit-api-v2-python_.
 
-Simple example:
-::
+example:
 
-    from deribit_api import RestClient
+    import RestClient
     client = RestClient("KEY", "SECRET")
     client.index()
-    client.account()
+    client.getorderbook('BTC-PERPETUAL',10)     
+    client.getinstruments('BTC','future')       
+    client.getcurrencies()                      
+    client.gettradesbycurrency('BTC',10)         
+    client.getindex('BTC')                       
 
-.. _`Deribit API`: https://docs.deribit.com/v2/
