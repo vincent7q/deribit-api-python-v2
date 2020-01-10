@@ -4,7 +4,8 @@ API Client from Deribit API version 2
 API client for 'Deribit API version 2. 
 
 
-### Example
+Simple example:
+::
 
     import RestClient
     client = RestClient("KEY", "SECRET")
