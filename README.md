@@ -1,4 +1,4 @@
-# API Client for Deribit python Api version 2 [version 2](https://docs.deribit.com/v2/)
+# API Client for Deribit python version 2 [version 2](https://docs.deribit.com/v2/)
 ### Example
 
 ```
