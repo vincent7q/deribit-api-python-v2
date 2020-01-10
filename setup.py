@@ -1,6 +1,6 @@
 """DERIBIT API Module.
 See:
-https://www.deribit.com/docs/api/
+https://docs.deribit.com/v2/
 """
 
 # Always prefer setuptools over distutils
