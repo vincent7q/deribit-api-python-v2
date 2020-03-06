@@ -179,6 +179,12 @@ class RestClient(object):
         '''
         assert amount>0
         assert price>0
+        
+        if instrument=='BTC-PERPETUAL':
+            amount=int(round(amount,-1));     #BTC-PERPETUAL only allow amount with muliple of 10
+        
+        if instrument=='ETH-PERPETUAL':
+            amount=int(round(amount));       #ETH-PERPETUAL only allow amount with muliple of 10
 
         options = {
             "instrument_name": instrument,  
