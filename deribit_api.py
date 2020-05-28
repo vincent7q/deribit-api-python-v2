@@ -184,7 +184,7 @@ class RestClient(object):
             amount=int(round(amount,-1));     #BTC-PERPETUAL only allow amount with muliple of 10
         
         if instrument=='ETH-PERPETUAL':
-            amount=int(round(amount));       #ETH-PERPETUAL only allow amount with muliple of 10
+            amount=int(round(amount));       #ETH-PERPETUAL only allow amount in integer (not allow any decimal place)
 
         options = {
             "instrument_name": instrument,  
